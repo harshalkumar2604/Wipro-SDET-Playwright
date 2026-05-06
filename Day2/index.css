@@ -1,0 +1,23 @@
+h1{
+    color: orange;
+    margin-bottom: 25px;
+}
+p{
+    color: blueviolet;
+    font-size: 18px;
+
+}
+input{
+     border: 1px solid black;
+    padding: 5px;
+}
+button {
+    background-color: rgb(48, 114, 143);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover {    
+    background-color: darkgreen;
+}
