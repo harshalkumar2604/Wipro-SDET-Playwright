@@ -1,0 +1,123 @@
+# JAVASCRIPT LEARNING SUMMARY
+
+## DAY – 1
+
+### JavaScript Basics
+
+* Learned fundamental JavaScript concepts including string operations, mathematical calculations, and logical operations.
+* Practiced creating reusable functions for performing tasks and returning values.
+* Understood variable declarations using `let` for block scope and `var` for function scope.
+* Explored arrays as collections used to store multiple elements and practiced accessing and modifying array data.
+* Implemented control flow statements such as `for` loops and `switch-case` conditions for decision making and iteration.
+
+### Git & Version Control
+
+* Learned how to initialize and manage Git repositories for project version control.
+* Practiced essential Git commands such as:
+
+  * `git init` for repository initialization
+  * `git add` for staging files
+  * `git commit` for saving changes
+  * `git remote add origin` for connecting to GitHub repositories
+  * `git push` for uploading code
+  * `git status` for checking repository state
+* Also practiced regular development workflow commands for updating existing repositories.
+
+---
+
+## DAY – 2
+
+### Advanced JavaScript Concepts
+
+* Worked with Template Literals using backticks and `${}` expressions for dynamic string formatting.
+* Practiced important array methods such as `map()`, `filter()`, and `reduce()` for data transformation and processing.
+* Learned to generate random numbers using `Math.random()` and `Math.floor()`.
+* Understood type conversion techniques using `Number()` and `String()` methods.
+* Practiced array manipulation methods including:
+
+  * `push()` and `pop()`
+  * `shift()` and `unshift()`
+  * `splice()` for inserting and removing array elements
+* Used the `reduce()` method to perform operations such as counting occurrences of items within an array.
+
+### DOM Manipulation & Event Handling
+
+* Developed a basic Login Page project using JavaScript.
+* Worked with DOM methods such as `getElementById()`.
+* Implemented event handling using `addEventListener()` for user interactions.
+
+---
+
+## DAY – 4
+
+### Promises & Asynchronous JavaScript
+
+* Learned asynchronous programming concepts in JavaScript.
+* Understood how operations like API calls, timers, and file handling execute asynchronously.
+* Studied the concept of Promises and their three states:
+
+  * Pending
+  * Fulfilled (Resolved)
+  * Rejected
+* Learned how Promises simplify asynchronous workflows and help avoid callback nesting.
+
+### Fetch API & Promise Chaining
+
+* Practiced fetching data from external APIs using the Fetch API.
+* Used Promise chaining with `.then()` and `.catch()` methods to handle API responses and errors.
+* Applied array methods such as `filter()` and `map()` to process API data dynamically.
+* Explored real-world use cases of API validation and data manipulation, which are commonly used in automation testing frameworks like Playwright.
+
+### Working with Public APIs
+
+* Worked with multiple public REST APIs to gain hands-on experience in real-time data fetching and processing.
+* APIs explored included:
+
+  * CatFact API
+  * PokeAPI
+  * Open Notify API
+  * ZenQuotes API
+  * Hipolabs Universities API
+  * Dog API
+  * CoinGecko API
+  * Random User Generator API
+  * REST Countries API
+  * JSONPlaceholder API
+* Practiced extracting, filtering, transforming, and displaying API response data.
+
+### Async/Await & JSON Handling
+
+* Learned to use `async` and `await` for writing cleaner and more readable asynchronous code.
+* Converted Promise-based logic into async/await syntax for improved readability.
+* Understood JSON operations including:
+
+  * `JSON.stringify()` for converting objects into JSON strings
+  * `JSON.parse()` for converting JSON strings back into JavaScript objects
+
+### Timers in JavaScript
+
+* Practiced working with timers using:
+
+  * `setTimeout()`
+  * `clearTimeout()`
+  * `setInterval()`
+  * `clearInterval()`
+* Understood how timers are used for delayed execution and repeated tasks in asynchronous programming.
+
+##Day6 
+
+### Practice questions
+
+    * Concepts practiced
+       * Parsing and processing raw string-based flight data.
+       * Converting unstructured data into JavaScript objects.
+       * Data validation and type coercion using Number().
+       * Handling invalid or missing values gracefully.
+       * Filtering records based on conditions and Sorting objects using custom sorting logic.
+       * Converting JavaScript objects into JSON format using JSON.stringify().
+    
+    * Questions solved
+       * Flight Booking Data Cleaner.
+       * E-Commerce Discount Applicator.
+       * Movie Stream Analytics.
+       * Automated Payroll Processor.
