@@ -121,3 +121,5 @@
        * E-Commerce Discount Applicator.
        * Movie Stream Analytics.
        * Automated Payroll Processor.
+### Callback, prototype topics explained
+    * 
