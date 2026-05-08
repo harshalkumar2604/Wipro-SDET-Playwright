@@ -152,7 +152,6 @@
      *Objects and Methods
      *Constructor Functions & new Keyword
      *Prototypes and Prototype Inheritance
-     *Prototype Chain
      *Object.create() for Inheritance
      *Property Checking with hasOwnProperty()
      *Built-in Object Methods (toString)
