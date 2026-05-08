@@ -121,5 +121,40 @@
        * E-Commerce Discount Applicator.
        * Movie Stream Analytics.
        * Automated Payroll Processor.
+
+
 ### Callback, prototype topics explained
-    * 
+
+     * Constructor Functions & Prototypes
+       *Creating objects using new
+       *Sharing methods via prototype
+       *Prototype comparison and method sharing
+     *Spread Operator (...)
+       *Merging arrays and objects
+       *Creating shallow copies
+     *Callbacks & Higher-Order Functions
+       *Passing functions as arguments
+       *Using forEach and anonymous callbacks
+     *Execution Context (Stack vs Heap)
+       *Primitive values stored in stack
+       *Objects/functions stored in heap
+       *Memory behavior and execution flow (LIFO)
+     *Primitive and Reference Copy
+       *Value copy (independent)
+       *Reference copy (shared memory)
+
+##Day 7
+
+###🔹 Major Topics Covered
+
+     *Hoisting in JavaScript
+     *Function Types (Declaration vs Arrow Function)
+     *Objects and Methods
+     *Constructor Functions & new Keyword
+     *Prototypes and Prototype Inheritance
+     *Prototype Chain
+     *Object.create() for Inheritance
+     *Property Checking with hasOwnProperty()
+     *Built-in Object Methods (toString)
+     *Arrays and Iteration (for...of)
+     *Type Conversion using toString()
