@@ -292,5 +292,57 @@ for (let i = 0; i < mergedArray.length; i++) {
 console.log("Merged Array =", mergedArray);
 console.log("Array after removing duplicates =", uniqueArray1);
 
+
 //Objects
-//1.
+// 1. Create an object for a student and display all properties dynamically.
+const student = {
+    name: "Harshal",
+    age: 22,
+    course: "SDET"
+};
+
+for (let key in student) {
+    console.log(key + ": " + student[key]);
+}
+
+
+// 2. Count number of keys in an object.
+const obj = { a: 1, b: 2, c: 3 };
+console.log(Object.keys(obj).length);
+
+
+// 3. Merge two objects into one.
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+
+const merged = { ...obj1, ...obj2 };
+console.log(merged);
+
+
+// 4. Convert an object into an array of keys and values.
+const user = { name: "Abhi", age: 25 };
+
+const keys = Object.keys(user);
+const values = Object.values(user);
+const entries = Object.entries(user);
+
+console.log(keys);
+console.log(values);
+console.log(entries);
+
+
+// 5. Create a shopping cart object and calculate total bill amount.
+const cart = {
+    item1: { name: "Shirt", price: 500, qty: 2 },
+    item2: { name: "Jeans", price: 1200, qty: 1 },
+    item3: { name: "Shoes", price: 2000, qty: 1 }
+};
+
+let total = 0;
+
+for (let item in cart) {
+    total += cart[item].price * cart[item].qty;
+}
+
+console.log("Total Bill:", total);
+
