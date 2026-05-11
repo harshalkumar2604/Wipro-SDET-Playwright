@@ -35,6 +35,21 @@ console.log(calculator(5, 3, add));
 console.log(calculator(5, 3, multiply));
 
 
+const calc = {
+    sum: (...op) => op.reduce((acc, curr) => acc + curr, 0),
+    sub: (...op) => op.reduce((acc, curr) => acc - curr, 0),
+    mul: (...op) => op.reduce((acc, curr) => acc * curr, 1),
+    div: (...op) => op.reduce((acc, curr) => acc / curr, 1),
+};
+ 
+ 
+function calculator(operation, ...operands) {
+    return operation(...operands);
+}
+ 
+console.log(calculator(calc.sum, 1, 2, 3))
+
+
 // 4. Simulate food ordering system using callbacks.
 function placeOrder(order, callback) {
     console.log("Order placed:", order);
